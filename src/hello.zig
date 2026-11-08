@@ -19,13 +19,5 @@ fn puts(s: []const u8) void {
 
 export fn main() void {
     putc(0x8e);
-    putc('F');
-    putc('U');
-    putc('C');
-    putc('K');
-    putc('f');
-    putc('u');
-    putc('c');
-    putc('k');
     puts("HELLO WORLD");
 }
